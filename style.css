@@ -6,14 +6,15 @@
 }
 
 :root {
-
+    --main-font: "Montserrat";
+    --fancy-font: "Engraver";
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat";
+    font-family: var(--main-font);
 }
 
 body {
@@ -75,7 +76,7 @@ nav a:hover {
 
 .title h1 {
     font-size: 5rem;
-    font-family: "Engraver";
+    font-family: var(--fancy-font);
 }
 
 .main-content {
@@ -93,12 +94,12 @@ nav a:hover {
 }
 
 .bar-image {
-    width: 450px;
+    width: 400px;
     height: 300px;
+    box-shadow: 10px 5px 5px black;
 }
 
 .bar-description {
-    padding-top: 55px;
     padding-left: 50px;
     padding-right: 45%;
     font-size: 1.25rem;
