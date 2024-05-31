@@ -171,5 +171,7 @@ main .bar-content {
 }
 
 #bar-position-change {
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
