@@ -119,9 +119,57 @@ footer {
     align-items: baseline;
     padding: 2rem;
     font-size: 4rem;
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 footer a {
     text-decoration: none;
     color: white;
+}
+
+/* Bar Pages */
+
+.bar-title {
+    text-shadow: 3px 3px 4px black;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 3rem;
+}
+
+main .bar-content {
+    margin-top: 10%;
+    color: white;
+}
+
+.bar-info {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.25rem;
+    text-wrap: wrap;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .8);
+    padding-right: 10px;
+}
+
+.bar-info a {
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.bar-info a:hover {
+    background-color: rgba(200, 0, 0, 0.5)
+}
+
+.bar-map {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.bar-item img {
+    box-shadow: 10px 5px 5px black;
+}
+
+#bar-position-change {
+    margin-left: 10%;
 }
